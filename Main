@@ -111,7 +111,7 @@ end
 
 -- daftar link raw route (ubah ke link punyamu)
 routes = {
-    {"BASE → CP8", loadRoute("https://raw.githubusercontent.com/Bardenss/YAHAYUK/refs/heads/main/cadangan.lua")},
+    {"BASE → CP8", loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUKV2/refs/heads/main/cadangan.lua")},
 }
 
 -- ============================================================
@@ -362,15 +362,15 @@ end
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local Window = WindUI:CreateWindow({
-    Title = "BANTAI GUNUNG",
+    Title = "LlyXCode x Marpii",
     Icon = "lucide:mountain-snow",
-    Author = "bardenss",
+    Author = "LlyXCode x Marpii",
     Folder = "BRDNHub",
     Size = UDim2.fromOffset(580, 460),
     Theme = "Midnight",
     Resizable = true,
     SideBarWidth = 200,
-    Watermark = "bardenss",
+    Watermark = "LlyXCode x Marpii",
     User = {
         Enabled = true,
         Anonymous = false,
@@ -524,7 +524,7 @@ SettingsTab:Button({
     Icon = "lucide:layers-2",
     Desc = "Timer untuk hitung BT",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bardenss/YAHAYUK/refs/heads/main/TIMER"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LlyXCode/YAHAYUKV2/refs/heads/main/TIMER"))()
     end
 })
 SettingsTab:Button({
@@ -766,7 +766,7 @@ Replay/route system untuk checkpoint.
 - Run CPx → CPy = jalur spesifik
 - Playback Speed = atur kecepatan replay (0.25x - 3.00x)
 
-Own bardenss
+LlyXCode x Marpii
     ]],
     TextSize = 16,
     TextTransparency = 0.25,
@@ -779,7 +779,7 @@ Window:DisableTopbarButtons({
 
 -- Open button cantik
 Window:EditOpenButton({
-    Title = "BANTAI GUNUNG",
+    Title = "LlyXCode x Marpii",
     Icon = "geist:logo-nuxt",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 2,
@@ -935,7 +935,7 @@ tampTab:Button({
 })
 
 -- Final notif
-notify("BANTAI GUNUNG", "Script sudan di load, gunakan dengan bijak.", 3)
+notify("LlyXCode x Marpii", "Script sudan di load, gunakan dengan bijak.", 3)
 
 pcall(function()
     Window:Show()
